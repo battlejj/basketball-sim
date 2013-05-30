@@ -1,0 +1,31 @@
+{
+  "name": "basketball-sim",
+  "version": "0.0.0",
+  "description": "A basketball simulator writting in coffeescript and javascript.",
+  "main": "index.coffee",
+  "scripts": {
+    "preinstall": "npm i -g coffee-script",
+    "test": "mocha --compilers coffee:coffee-script"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/battlejj/basketball-sim.git"
+  },
+  "keywords": [
+    "basketball"
+  ],
+  "dependencies": {
+    "coffee-script": "*",
+    "mongoose": "3.6.x",
+    "underscore": "*"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*",
+    "should": "*"
+  },
+  "author": "Jeremy Battle",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "private": true
+}
