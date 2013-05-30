@@ -1,7 +1,6 @@
 basketball-sim
 ==============
 Right now all we can do is:
-npm install
-and:
-npm test
-:P
+
+    npm install
+    npm test
